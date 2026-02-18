@@ -59,21 +59,26 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
 
 ## 📂 Repository Structure
-```
-SQL_Projects/                     ← Main repo
-│
-├── README.md                    ← Overview of all SQL work
-│
-├── Data_Warehouse_Projects/
-│   ├── README.md                ← Warehouse project documentation
-│   │
-│   ├── datasets/                ← Raw ERP & CRM CSV files
-│   │
-│   ├── scripts/
-│   │   ├── bronze/
-│   │   ├── silver/
-│   │   └── gold/
-│   │
+SQL_Projects/
+└── Data_Warehouse_Projects/
+    │
+    ├── README.md
+    │
+    ├── datasets/
+    │   ├── source_crm/
+    │   │   ├── cust_info.xlsx
+    │   │   ├── prd_info.xlsx
+    │   │   └── sales_details.xlsx
+    │   │
+    │   └── source_erp/
+    │       ├── CUST_AZ12.xlsx
+    │       ├── LOC_A101.xlsx
+    │       └── PX_CAT_G1V2.xlsx
+    │
+    └── scripts/
+        ├── bronze/
+        ├── silver/
+        └── gold/
 
 
 ## 🛡️ License
