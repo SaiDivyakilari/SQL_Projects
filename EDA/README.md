@@ -140,5 +140,4 @@ This EDA is built on top of a **Data Warehouse project** that handles:
 ---
 
 
-**Your Name**  
-[GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile)
+
